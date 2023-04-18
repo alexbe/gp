@@ -97,6 +97,6 @@ src_install() {
 	doicon redist/icons/${PN}.png
 
 	insinto /usr/share/${PN}/help
-	doins help/gdhelp_en.qch
+	# doins help/gdhelp_en.qch
 	plocale_for_each_locale install_locale
 }
