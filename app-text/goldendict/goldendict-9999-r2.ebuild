@@ -26,6 +26,7 @@ RDEPEND="
 	dev-qt/qthelp:5
 	dev-qt/qtnetwork:5
 	dev-qt/qtprintsupport:5
+	dev-qt/qtspeech:5
 	dev-qt/qtsql:5
 	dev-qt/qtsvg:5
 	dev-qt/qtwebengine:5
@@ -40,6 +41,7 @@ RDEPEND="
 	ffmpeg? (
 		media-libs/libao
 		media-video/ffmpeg:0=
+		dev-qt/qtmultimedia:5
 	)
 "
 DEPEND="${RDEPEND}"
