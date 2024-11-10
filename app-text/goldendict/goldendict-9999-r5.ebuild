@@ -63,7 +63,7 @@ src_prepare() {
 	# add trailing semicolon
 	sed -i -e '/^Categories/s/$/;/' redist/io.github.xiaoyifang.goldendict_ng.desktop || die
 
-	echo "QMAKE_CXXFLAGS_RELEASE = $CXXFLAGS" >> ${PN}.pro
+#	echo "QMAKE_CXXFLAGS_RELEASE = $CXXFLAGS" >> ${PN}.pro
 	echo "QMAKE_CFLAGS_RELEASE = $CFLAGS" >> ${PN}.pro
 
 	local loc_dir="${S}/locale"
